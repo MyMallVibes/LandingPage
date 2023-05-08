@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "My Mall Vibes",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -24,130 +24,91 @@
   ],
   "callToAction": {
     "text": "Get started",
-    "href": "#"
+    "href": "https://forms.gle/XRjS1bEXzHC4ZBBa7"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "My Mall Vibes",
+    "subtitle": "Your Ultimate Fashion Destination",
+    "description": "Discover a seamless shopping experience with My Mall Vibes, where you can explore hundreds of brands, create wishlists, and find the perfect fit before you try it on. Our innovative app is designed to cater to fashion-forward individuals, making it easier than ever to stay on top of the latest trends.",
+    "img": "/assets/images/MallVibesAppDisplay.png",
     "primaryAction": {
-      "text": "Get started",
-      "href": "#"
+      "text": "Join the Waitlist",
+      "href": "https://forms.gle/XRjS1bEXzHC4ZBBa7"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "Get in Touch",
+      "href": "mailto:Luke@mymallvibes.com?subject=I like My Mall Vibes!"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "My Mall Vibes Fashion App",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Discover Brands & Personalized Styles",
+        "description": "Explore a wide range of popular brands tailored to your personal style and size, ensuring you always find the perfect match for your fashion needs without the hassle of returns.",
+        "img": "/assets/images/Discover.png"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "My Wishlist",
+        "description": "Create and manage your wishlist, making buying and receiving gifts a breeze. Share your wishlist with friends and family to ensure you always get what you want.",
+        "img": "/assets/images/wishlist.png"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Elevate Your Fashion Experience",
+    "subtitle": "Revolutionize the way you shop",
+    "description": "My Mall Vibes Fashion App offers a unique and personalized experience for discovering, shopping, and organizing your favorite styles and brands. With our cutting-edge features, you'll find the perfect match for your fashion needs without the hassle of returns.",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Search",
+        "description": "Find the perfect fashion items with our advanced search feature, making it easy to discover and filter products based on your preferences and needs.",
+        "icon": "/assets/images/search-icon.svg"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Custom Profile",
+        "description": "Create a custom profile to save your preferences, sizes, and favorite styles, making it easier to find and buy the clothes you love.",
+        "icon": "/assets/images/user-icon.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
+        "name": "Share and Social",
+        "description": "Share your favorite items, looks, and wishlist with friends and family through social media, making it simple to stay connected and updated on the latest trends.",
+        "icon": "/assets/images/friends-icon.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Wishlist",
+        "description": "Easily create and manage your wishlist to keep track of the items you desire, making gift-giving a breeze for your loved ones.",
+        "icon": "/assets/images/wishlist-icon.svg"
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
+  "waitlist": {
+    "title": "Join the Waitlist",
+    "description": "Be the first to experience My Mall Vibes Fashion App. Sign up for our waitlist and get exclusive access when we launch."
+  },
 
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
-      }
-    ]
-  },
   "about": {
     "sections": [
       {
-        "name": "Something",
+        "name": "Privacy Policy",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
+        "name": "Terms and Conditions",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
+        "name": "Cookie Policy",
         "href": "#",
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "instagram": "https://www.instagram.com/MyMallVibes/",
+      "tiktok": "https://www.tiktok.com/@MyMallVibes",
+      "pinterest": "https://www.pinterest.com/"
     }
   }
 }

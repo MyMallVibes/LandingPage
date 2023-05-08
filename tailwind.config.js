@@ -15,29 +15,25 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    fontFamily: {
+      sans: ['Helvetica Neue', 'sans-serif'],
+      serif: ['Georgian', 'serif'],
+    },
     extend: {
       colors: {
-        primary: '#ec4755',
-        secondary: '#a12c34',
-        tertiary: '#99a0a3',
-        border: '#1a2e35',
+        primary: '#b1426a',
+        secondary: '#40a29b',
+        tertiary: '#80c5bb',
+        quaternary: '#b1426a',
+        quinary: '#b1426a',
+        senary: '#b1426a',
+        septenary: '#9cb58f',
+        octonary: '#ffd925',
+        border: '#b1426a',
         background: '#ffffff',
-      },
-      animation: {
-        vote: 'vote 1s ease-in-out',
-      },
-      keyframes: {
-        vote: {
-          '0%, 100%': {
-            transform: 'rotate(0deg)',
-          },
-          '25%': {
-            transform: 'rotate(-30deg)',
-          },
-          '75%': {
-            transform: 'rotate(30deg)',
-          },
-        },
+        'gray-dark': '#212121',
+        gray: '#757575',
+        'gray-light': '#bdbdbd',
       },
     },
   },

@@ -62,7 +62,7 @@ const Menu = () => {
                 href="#"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Call to action
+                Get Early Access
               </a>
             </div>
           </nav>
@@ -114,7 +114,9 @@ const Menu = () => {
               </div>
               <a
                 href={callToAction.href}
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100`}
+                target="_blank" // Add this line
+                rel="noopener noreferrer" // Add this line for security reasons
+                className="text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded"
               >
                 {callToAction.text}
               </a>
