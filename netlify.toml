@@ -1,3 +1,6 @@
 [build]
-  publish = "out"
+  publish = ".next"
   command = "npm run build-prod"
+[build.environment]
+NEXT_PRIVATE_TARGET = "export"
+NETLIFY_NEXT_PLUGIN_SKIP = "true" # Set this environment variable
